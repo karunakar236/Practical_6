@@ -9,6 +9,7 @@ import android.webkit.WebSettings
 
 
 class YoutubeActivity : AppCompatActivity() {
+    private var x:Int=10
     private lateinit var binding: ActivityYoutubeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         WindowCompat.setDecorFitsSystemWindows(window,false)
